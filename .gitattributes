@@ -1,0 +1,3 @@
+registry.json -text
+registry.json.sig -text
+registry.json.sha256 -text
