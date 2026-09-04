@@ -1,0 +1,24 @@
+name: sign-registry
+on:
+  push:
+    branches: [ main ]
+    paths: [ registry.json ]
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sign registry.json
+        run: |
+          printf '%s' "${{ secrets.NELSON_REGISTRY_SIGNING_KEY }}" > /tmp/key.pem
+          sh scripts/sign_registry.sh /tmp/key.pem
+          rm -f /tmp/key.pem
+      - name: Commit signature sidecars
+        run: |
+          git config user.name  "nelson-registry-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add registry.json.sig registry.json.sha256
+          git commit -m "ci: sign registry.json" || echo "rien a signer"
+          git push
