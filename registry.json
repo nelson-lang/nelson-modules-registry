@@ -1,3 +1,93 @@
 {
-  "packages": []
+  "packages": [
+    {
+      "name": "com_engine",
+      "version": "1.0.0",
+      "title": "com_engine",
+      "summary": "Windows COM/ActiveX automation for Nelson.",
+      "description": "actxserver, actxcontrollist, COM object get/set/invoke and Excel helpers (COM_xlsread/COM_xlswrite). Windows only.",
+      "license": "LGPL-3.0-or-later",
+      "authors": [
+        "Allan CORNET"
+      ],
+      "repository": "https://github.com/NelsonModules/com_engine.git",
+      "keywords": [
+        "nelson",
+        "com_engine",
+        "com",
+        "activex",
+        "ole",
+        "windows"
+      ],
+      "tags": [
+        "nelson",
+        "com_engine",
+        "com",
+        "activex",
+        "ole",
+        "windows"
+      ],
+      "package_type": "binary",
+      "platforms": [
+        "win64"
+      ],
+      "nelson": ">=2.0.0",
+      "dependencies": {},
+      "artifacts": {
+        "win64": {
+          "source": "https://github.com/NelsonModules/com_engine/releases/download/v1.0.0/com_engine-win64-1.0.0.nmz",
+          "checksum": "5548d7ec0caf77d77d3007a71c632f9cda28d6d8f94ccb82e5719c1d27324ef1"
+        }
+      },
+      "signature": ""
+    },
+    {
+      "name": "morse",
+      "version": "1.0.0",
+      "title": "Morse code",
+      "summary": "International Morse code: encode, decode, audio and a trainer.",
+      "description": "International Morse code (ITU-R M.1677-1) for Nelson: encode text to dots and dashes and decode it back, the code table, keyed-tone audio synthesis with adjustable speed, frequency and Farnsworth spacing, playback, WAV export, and an interactive practice trainer.",
+      "license": "LGPL-3.0-or-later",
+      "authors": [
+        "Allan CORNET"
+      ],
+      "repository": "https://github.com/NelsonModules/morse",
+      "homepage": "https://github.com/NelsonModules/morse",
+      "issues": "https://github.com/NelsonModules/morse/issues",
+      "documentation": "https://github.com/NelsonModules/morse#readme",
+      "keywords": [
+        "nelson",
+        "morse",
+        "morse code",
+        "telegraph",
+        "cw",
+        "ham radio",
+        "encode",
+        "decode",
+        "audio",
+        "itu"
+      ],
+      "tags": [
+        "nelson",
+        "morse",
+        "morse code",
+        "telegraph",
+        "cw",
+        "ham radio",
+        "encode",
+        "decode",
+        "audio",
+        "itu"
+      ],
+      "package_type": "source",
+      "platforms": [
+        "all"
+      ],
+      "nelson": ">=2.0.0",
+      "dependencies": {},
+      "source": "https://github.com/NelsonModules/morse/releases/download/v1.0.0/morse-all-1.0.0.nmz",
+      "checksum": "f850303b1d4f40550bd9c48fffdc6724a026f440fea3f8f5e50d6c038c47128f",
+      "signature": ""
+    }
+  ]
 }

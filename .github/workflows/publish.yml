@@ -1,7 +1,7 @@
 name: sign-registry
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
     paths: [ registry.json ]
 jobs:
   sign:
