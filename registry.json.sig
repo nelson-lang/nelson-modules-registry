@@ -1,10 +1,13 @@
 {
-  "format": "nmm-registry-signature",
-  "version": 1,
-  "algorithm": "ed25519",
-  "file": "registry.json",
-  "sha256": "d1962a4d2031f4cb9aed73c000295fb373620403b7ea5eb77bdf5f15ddc3cf39",
-  "signatures": [
-    { "public_key": "4113b7e0c4091683ca17524057769d3f1fadf2c22b371f135798dd35fde94924", "signature": "509b6218271f690eb9f961592443a4c392d458ac82d6599388914ee04ce35bc0ea0421a2366a1740d3b85c1630bd783f38c3a10f26370855e08f9dec5168b008" }
-  ]
+    "format":"nmm-registry-signature",
+    "version":1,
+    "algorithm":"ed25519",
+    "file":"registry.json",
+    "sha256":"2403440ab3b5ddcdd04738a2e2620be3efcf4fa4c45248c3b68c5b56350a86cb",
+    "signatures":[
+        {
+            "public_key":"4113b7e0c4091683ca17524057769d3f1fadf2c22b371f135798dd35fde94924",
+            "signature":"49a58b2b86b8f654bd0254ecd0040b5d30a80ee3159b6663baa3acefd91b53550a3ffede9f2d01dd4247d72b0d1a49092354d8a7d6dc0f6d7a41734658598608"
+        }
+    ]
 }
