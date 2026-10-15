@@ -194,7 +194,7 @@
                 },
                 "wasm32":{
                     "source":"https://github.com/NelsonModules/tessera/releases/download/v1.0.0/tessera-wasm32-1.0.0.nmz",
-                    "checksum":"7cc7832e6ed01861c9b7c4fa612d11e88281b385b6cf4931b875af4addf33ffe"
+                    "checksum":"00903a09fb7de2029696a1420fa4a29a81155e6f201785b944d4e22c2e539041"
                 }
             },
             "signature":"",
