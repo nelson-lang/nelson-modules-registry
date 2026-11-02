@@ -213,6 +213,234 @@
             "checksum":[
                 
             ]
+        },
+        {
+            "name":"ecglab",
+            "version":"1.0.0",
+            "title":"Electrocardiography laboratory",
+            "summary":"Read, analyse, classify, measure and report electrocardiograms, validated on the open databases.",
+            "description":"An electrocardiography laboratory for Nelson: WFDB, EDF+, CSV and ISHNE in and out, preprocessing with a quality index, seven QRS detectors compared under ANSI/AAMI EC57, P-QRS-T delineation measured on the QT Database, AAMI beat classification, atrial fibrillation, heart rate variability by the Task Force definitions, the twelve-lead measurements, a calibrated strip, a summary page, a beat view and a report.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/ecglab",
+            "keywords":[
+                "ecg",
+                "electrocardiogram",
+                "qrs",
+                "arrhythmia",
+                "hrv",
+                "wfdb",
+                "edf",
+                "physionet"
+            ],
+            "tags":[
+                "ecg",
+                "electrocardiogram",
+                "qrs",
+                "arrhythmia",
+                "hrv",
+                "wfdb",
+                "edf",
+                "physionet"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                "edf":"1.0.1",
+                "wfdb":"1.0.0",
+                "ishne":"1.0.0"
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/ecglab/releases/download/v1.0.0/ecglab-all-1.0.0.nmz",
+            "checksum":"2095c1c035c8f1dca1e86defaa8d0b36856e11d645ecbc39cd4a7b48c562d9e7"
+        },
+        {
+            "name":"ishne",
+            "version":"1.0.0",
+            "title":"ISHNE Holter toolbox",
+            "summary":"Read and write ISHNE Holter ECG signal files.",
+            "description":"A toolbox that owns the ISHNE Holter ECG binary format and returns a domain-free struct. Read and write signals, inspect and validate headers (with a CRC-CCITT checksum), select leads, crop a window, and work from bytes in memory. Designed to be a dependency of higher-level toolboxes such as ecglab.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/ishne",
+            "keywords":[
+                "ishne",
+                "holter",
+                "ecg",
+                "biosignal",
+                "ambulatory"
+            ],
+            "tags":[
+                "ishne",
+                "holter",
+                "ecg",
+                "biosignal",
+                "ambulatory"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/ishne/releases/download/v1.0.0/ishne-all-1.0.0.nmz",
+            "checksum":"eaaeb4a7f68753e83efeb0b05c2979e13bde289dd076534f42f0fc7b95c01d7f"
+        },
+        {
+            "name":"wfdb",
+            "version":"1.0.0",
+            "title":"WFDB toolbox",
+            "summary":"Read and write PhysioNet WFDB records, signals and annotations.",
+            "description":"A toolbox that owns the PhysioNet WFDB record format and returns a domain-free struct. Read and write signals and annotations, inspect headers, select channels, crop a window, validate checksums and convert signal formats. Designed to be a dependency of higher-level toolboxes such as ecglab and sleeplab.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/wfdb",
+            "keywords":[
+                "wfdb",
+                "physionet",
+                "ecg",
+                "biosignal",
+                "annotations",
+                "holter",
+                "waveform",
+                "signal",
+                "mit-bih"
+            ],
+            "tags":[
+                "wfdb",
+                "physionet",
+                "ecg",
+                "biosignal",
+                "annotations",
+                "holter",
+                "waveform",
+                "signal",
+                "mit-bih"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/wfdb/releases/download/v1.0.0/wfdb-all-1.0.0.nmz",
+            "checksum":"5adf159f733a67321bdeb34d44650c4f99801328645cac8fbff2aa7eb1dcc629"
+        },
+        {
+            "name":"edf",
+            "version":"1.0.1",
+            "title":"European Data Format toolbox",
+            "summary":"Read and write EDF, EDF+, BDF and BDF+ biosignal files.",
+            "description":"A toolbox that owns the EDF, EDF+, BDF and BDF+ binary format and returns a domain-free struct. Read and write signals and annotations, inspect headers, window and resample, decode BDF triggers, edit, crop, merge, anonymize, validate and convert units. Designed to be a dependency of higher-level toolboxes such as ecglab and sleeplab.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/edf",
+            "keywords":[
+                "edf",
+                "edf+",
+                "bdf",
+                "bdf+",
+                "biosignal",
+                "eeg",
+                "ecg",
+                "emg",
+                "polysomnography",
+                "sleep",
+                "physionet",
+                "biosemi",
+                "annotations"
+            ],
+            "tags":[
+                "edf",
+                "edf+",
+                "bdf",
+                "bdf+",
+                "biosignal",
+                "eeg",
+                "ecg",
+                "emg",
+                "polysomnography",
+                "sleep",
+                "physionet",
+                "biosemi",
+                "annotations"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/edf/releases/download/v1.0.1/edf-all-1.0.1.nmz",
+            "checksum":"f341a8f75feb170273acabc548e4e4517711f76a28327c5c2beaeb0fcbcf6e55"
         }
     ]
 }
