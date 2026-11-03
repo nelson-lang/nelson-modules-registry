@@ -441,6 +441,63 @@
             ],
             "source":"https://github.com/NelsonModules/edf/releases/download/v1.0.1/edf-all-1.0.1.nmz",
             "checksum":"f341a8f75feb170273acabc548e4e4517711f76a28327c5c2beaeb0fcbcf6e55"
+        },
+        {
+            "name":"ecglab",
+            "version":"1.1.0",
+            "title":"Electrocardiography laboratory",
+            "summary":"Read, analyse, classify, measure and report electrocardiograms, validated on the open databases.",
+            "description":"An electrocardiography laboratory for Nelson: WFDB, EDF+, CSV and ISHNE in and out, preprocessing with a quality index, seven QRS detectors compared under ANSI/AAMI EC57, P-QRS-T delineation measured on the QT Database, AAMI beat classification, atrial fibrillation, heart rate variability by the Task Force definitions, the twelve-lead measurements, a calibrated strip, a summary page, a beat view and a report.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/ecglab",
+            "keywords":[
+                "ecg",
+                "electrocardiogram",
+                "qrs",
+                "arrhythmia",
+                "hrv",
+                "wfdb",
+                "edf",
+                "physionet"
+            ],
+            "tags":[
+                "ecg",
+                "electrocardiogram",
+                "qrs",
+                "arrhythmia",
+                "hrv",
+                "wfdb",
+                "edf",
+                "physionet"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                "edf":"1.0.1",
+                "wfdb":"1.0.0",
+                "ishne":"1.0.0"
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/ecglab/releases/download/v1.1.0/ecglab-all-1.1.0.nmz",
+            "checksum":"8e2648218cc682468776602ce29bd497576f5d504f4adcd2c120bb74847d5eaa"
         }
     ]
 }
