@@ -498,6 +498,59 @@
             ],
             "source":"https://github.com/NelsonModules/ecglab/releases/download/v1.1.0/ecglab-all-1.1.0.nmz",
             "checksum":"8e2648218cc682468776602ce29bd497576f5d504f4adcd2c120bb74847d5eaa"
+        },
+        {
+            "name":"echarts",
+            "version":"1.0.0",
+            "title":"echarts",
+            "summary":"Interactive Apache ECharts charts for Nelson: 30+ chart types (bar, line, area, scatter, pie, radar, heatmap, calendar, boxplot, candlestick, sankey, graph, tree, treemap, sunburst, funnel, gauge, parallel, themeRiver, choropleth map, wordcloud, ...), offline rendering, HTML/PNG/SVG export, zoom, data labels, mark lines and click callbacks.",
+            "description":"Interactive charts for Nelson powered by Apache ECharts: a faithful, object-oriented binding that renders live charts in the WebView/WebAssembly desktop and exports self-contained HTML everywhere else.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                
+            ],
+            "repository":"",
+            "keywords":[
+                "nelson",
+                "nelson-lang",
+                "echarts",
+                "apache-echarts",
+                "charts",
+                "visualization",
+                "plot"
+            ],
+            "tags":[
+                "nelson",
+                "nelson-lang",
+                "echarts",
+                "apache-echarts",
+                "charts",
+                "visualization",
+                "plot"
+            ],
+            "package_type":"source",
+            "platforms":[
+                "all"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                
+            },
+            "artifacts":{
+                
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":"https://github.com/NelsonModules/echarts/releases/download/v1.0.0/echarts-all-1.0.0.nmz",
+            "checksum":"5dba50779bb2f2a6826d6bb396e1167916b075014934223c209ebf73bf59cde6"
         }
     ]
 }
