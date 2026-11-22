@@ -589,7 +589,7 @@
                 },
                 "wasm32":{
                     "source":"https://github.com/NelsonModules/protobuf/releases/download/v1.0.0/protobuf-wasm32-1.0.0.nmz",
-                    "checksum":"b5b9d884ca8273eb10240815ae02fff7733f643ca680a9c93f04f212293f34f7"
+                    "checksum":"6d8b5296a1f2f6b27accb796498e5eb45094010cec12eff8699d8c3b83d993ad"
                 }
             },
             "signature":"",
