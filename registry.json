@@ -551,6 +551,63 @@
             ],
             "source":"https://github.com/NelsonModules/echarts/releases/download/v1.0.0/echarts-all-1.0.0.nmz",
             "checksum":"5dba50779bb2f2a6826d6bb396e1167916b075014934223c209ebf73bf59cde6"
+        },
+        {
+            "name":"protobuf",
+            "version":"1.0.0",
+            "title":"protobuf",
+            "summary":"protobuf builtin module for Nelson.",
+            "description":"Protocol Buffers (proto3 and editions) for Nelson: runtime .proto parsing and fast native encode/decode.",
+            "license":"LGPL-3.0-or-later",
+            "authors":[
+                "Allan CORNET"
+            ],
+            "repository":"https://github.com/NelsonModules/protobuf",
+            "keywords":[
+                "nelson",
+                "protobuf",
+                "builtin"
+            ],
+            "tags":[
+                "nelson",
+                "protobuf",
+                "builtin"
+            ],
+            "package_type":"binary",
+            "platforms":[
+                "win64",
+                "wasm32"
+            ],
+            "nelson":">=2.0.0",
+            "dependencies":{
+                
+            },
+            "artifacts":{
+                "win64":{
+                    "source":"https://github.com/NelsonModules/protobuf/releases/download/v1.0.0/protobuf-win64-1.0.0.nmz",
+                    "checksum":"22700d6b4c6d5972803aa8efac4579910edfa619520100295ffcf3319b3d8ecd"
+                },
+                "wasm32":{
+                    "source":"https://github.com/NelsonModules/protobuf/releases/download/v1.0.0/protobuf-wasm32-1.0.0.nmz",
+                    "checksum":"b5b9d884ca8273eb10240815ae02fff7733f643ca680a9c93f04f212293f34f7"
+                }
+            },
+            "signature":"",
+            "homepage":[
+                
+            ],
+            "issues":[
+                
+            ],
+            "documentation":[
+                
+            ],
+            "source":[
+                
+            ],
+            "checksum":[
+                
+            ]
         }
     ]
 }
